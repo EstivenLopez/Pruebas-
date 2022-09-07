@@ -1,0 +1,277 @@
+{
+  "id": "7a354d3c-fe66-4a6a-a6f8-ed5c84396215",
+  "version": "2.0",
+  "name": "Pruebas taller 1",
+  "url": "https://tiendaverde.com.co",
+  "tests": [{
+    "id": "e2bdc597-3b69-4243-9048-d5a2b0425487",
+    "name": "Articulos verdes",
+    "commands": [{
+      "id": "522bbae3-dd5f-41b6-9293-0565476c1239",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fe0f790-c5f5-412f-8b62-099f87918f62",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "617906fe-b507-4ad3-a9f5-4395d23757be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav:nth-child(1) > .active .menu-title",
+      "targets": [
+        ["css=.nav:nth-child(1) > .active .menu-title", "css:finder"],
+        ["xpath=//header[@id='header']/div[2]/div/div/div[2]/nav/div[2]/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cb2a165-a609-4e8d-8715-d94c90dd7e8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-miniature:nth-child(8) img",
+      "targets": [
+        ["css=.product-miniature:nth-child(8) img", "css:finder"],
+        ["xpath=//img[@alt='Camiseta Blanca Nacional...']", "xpath:img"],
+        ["xpath=//div[@id='js-product-list']/div/article[8]/div/a/img", "xpath:idRelative"],
+        ["xpath=//article[8]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e387847e-3c11-4067-a4c8-de7487a7ca31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.thumb-container:nth-child(2) > .js-thumb",
+      "targets": [
+        ["css=.thumb-container:nth-child(2) > .js-thumb", "css:finder"],
+        ["xpath=//img[contains(@src,'https://tiendaverde.com.co/1655-large_default/camiseta-blanca-nacional-rayas-atletico-nacional-2022.jpg')]", "xpath:img"],
+        ["xpath=//ul[@id='images-trigger']/li[2]/img", "xpath:idRelative"],
+        ["xpath=//li[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b5b70b2-0040-4915-be04-4d9265425e29",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav:nth-child(1) > .nav-item:nth-child(2) > .nav-link",
+      "targets": [
+        ["css=.nav:nth-child(1) > .nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//header[@id='header']/div[2]/div/div/div[2]/nav/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://tiendaverde.com.co/65-nike')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d17491f-f496-4a03-ae52-aea5a865b151",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-miniature:nth-child(1) img",
+      "targets": [
+        ["css=.product-miniature:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Camiseta local niño Nike...']", "xpath:img"],
+        ["xpath=//div[@id='js-product-list']/div/article/div/a/img", "xpath:idRelative"],
+        ["xpath=//article/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9026d3c1-36d8-4fc1-ac10-923d98ecfbe1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.thumb-container:nth-child(2) > .js-thumb",
+      "targets": [
+        ["css=.thumb-container:nth-child(2) > .js-thumb", "css:finder"],
+        ["xpath=//img[contains(@src,'https://tiendaverde.com.co/1527-large_default/camiseta-local-nino-nike-2022-nino-competencia-nike-2021.jpg')]", "xpath:img"],
+        ["xpath=//ul[@id='images-trigger']/li[2]/img", "xpath:idRelative"],
+        ["xpath=//li[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67e01db4-5154-420f-920c-18ec81e96acc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-qv-product-cover",
+      "targets": [
+        ["css=.js-qv-product-cover", "css:finder"],
+        ["xpath=(//img[contains(@src,'https://tiendaverde.com.co/1527-large_default/camiseta-local-nino-nike-2022-nino-competencia-nike-2021.jpg')])[2]", "xpath:img"],
+        ["xpath=//section[@id='content']/div/div[2]/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b3a6881-1056-4a48-b561-4bafeffbd2c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-miniature:nth-child(1) img",
+      "targets": [
+        ["css=.product-miniature:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Buzo verde atletico...']", "xpath:img"],
+        ["xpath=//div[@id='js-product-list']/div/article/div/a/img", "xpath:idRelative"],
+        ["xpath=//article/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7ed2b51-1817-4243-907f-028729f0b926",
+      "comment": "",
+      "command": "click",
+      "target": "css=.thumb-container:nth-child(2) > .js-thumb",
+      "targets": [
+        ["css=.thumb-container:nth-child(2) > .js-thumb", "css:finder"],
+        ["xpath=//img[contains(@src,'https://tiendaverde.com.co/1408-large_default/buzo-verde-atletico-nacional-moda-atletico-nacional-2021.jpg')]", "xpath:img"],
+        ["xpath=//ul[@id='images-trigger']/li[2]/img", "xpath:idRelative"],
+        ["xpath=//li[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "696235ca-a551-4b15-92f1-e036ac3be141",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,715)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a3e5540-55ba-4259-9b71-e5dfcb50f0b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-6:nth-child(2) .mundo-pr-img",
+      "targets": [
+        ["css=.col-md-6:nth-child(2) .mundo-pr-img", "css:finder"],
+        ["xpath=//img[@alt='Camiseta negra Zubeldía Moda Atlético Nacional']", "xpath:img"],
+        ["xpath=//section[@id='content']/div[2]/div/div/div[2]/article/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/article/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "034342ef-f6f9-4bfe-a32d-5bad7da10523",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-miniature:nth-child(2) img",
+      "targets": [
+        ["css=.product-miniature:nth-child(2) img", "css:finder"],
+        ["xpath=//img[@alt='Buzo verde atletico...']", "xpath:img"],
+        ["xpath=//div[@id='js-product-list']/div/article[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//article[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf6c3465-6865-4b28-be75-76bca454602b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.thumb-container:nth-child(3) > .js-thumb",
+      "targets": [
+        ["css=.thumb-container:nth-child(3) > .js-thumb", "css:finder"],
+        ["xpath=//img[contains(@src,'https://tiendaverde.com.co/1415-large_default/buzo-verde-oscuro-chompa-escudo-moda-atletico-nacional-2021.jpg')]", "xpath:img"],
+        ["xpath=//ul[@id='images-trigger']/li[3]/img", "xpath:idRelative"],
+        ["xpath=//li[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ef40f6f-d21b-4a2c-be88-7faa0de0df08",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav:nth-child(1) > .nav-item:nth-child(4) > .nav-link > .menu-title",
+      "targets": [
+        ["css=.nav:nth-child(1) > .nav-item:nth-child(4) > .nav-link > .menu-title", "css:finder"],
+        ["xpath=//header[@id='header']/div[2]/div/div/div[2]/nav/div[2]/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[4]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a31aee1f-df53-46ba-ad32-3e8ee4bd3399",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Para los que aman la historia",
+      "targets": [
+        ["linkText=Para los que aman la historia", "linkText"],
+        ["css=.category-sub-menu > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Para los que aman la historia')]", "xpath:link"],
+        ["xpath=//div[@id='left-column']/div/ul/li[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://tiendaverde.com.co/15-para-los-que-aman-la-historia')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Para los que aman la historia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c82f518f-ad03-4cc0-afe1-83c1e0ba16a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-miniature:nth-child(2) img",
+      "targets": [
+        ["css=.product-miniature:nth-child(2) img", "css:finder"],
+        ["xpath=//img[@alt='Libro Reinaldo Rueda...']", "xpath:img"],
+        ["xpath=//div[@id='js-product-list']/div/article[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//article[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff36b5eb-303f-4375-be3b-ad68e4d7c0b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav:nth-child(1) > .nav-item:nth-child(2) > .nav-link",
+      "targets": [
+        ["css=.nav:nth-child(1) > .nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//header[@id='header']/div[2]/div/div/div[2]/nav/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://tiendaverde.com.co/65-nike')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7edac5a6-0ba1-4ffd-808b-581e399c13a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-miniature:nth-child(1) img",
+      "targets": [
+        ["css=.product-miniature:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Camiseta local niño Nike...']", "xpath:img"],
+        ["xpath=//div[@id='js-product-list']/div/article/div/a/img", "xpath:idRelative"],
+        ["xpath=//article/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c48cd7e9-a753-431e-97c8-158deabbdf22",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav:nth-child(1) > .nav-item:nth-child(5) .menu-title",
+      "targets": [
+        ["css=.nav:nth-child(1) > .nav-item:nth-child(5) .menu-title", "css:finder"],
+        ["xpath=//header[@id='header']/div[2]/div/div/div[2]/nav/div[2]/ul/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[5]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3327082d-13f8-4c71-a469-c612df7157b4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,101)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3025115-c3be-4ba0-b093-21efb94c62b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-miniature:nth-child(1) img",
+      "targets": [
+        ["css=.product-miniature:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Camiseta local niño Nike 2021 Niño Competencia Nike 2021']", "xpath:img"],
+        ["xpath=//div[@id='js-product-list']/div/article/div/a/img", "xpath:idRelative"],
+        ["xpath=//article/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "78e4a508-b634-405d-b893-79cfe11dc691",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e2bdc597-3b69-4243-9048-d5a2b0425487"]
+  }],
+  "urls": ["https://tiendaverde.com.co/"],
+  "plugins": []
+}
