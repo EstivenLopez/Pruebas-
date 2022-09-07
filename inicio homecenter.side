@@ -1,0 +1,166 @@
+{
+  "id": "9fb00c5b-9432-4ad8-a64f-200ddf6eb7c1",
+  "version": "2.0",
+  "name": "inicio homecenter",
+  "url": "http://localhost:4444/wd/hub",
+  "tests": [{
+    "id": "5463f503-2032-4ab9-ae9b-adda6607cf52",
+    "name": "Homecenter",
+    "commands": [{
+      "id": "e48a351f-fdcb-4347-a5f5-c4799deb2a40",
+      "comment": "",
+      "command": "open",
+      "target": "/homecenter-co/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3672039-bb0a-4b22-aea5-73cb86c7987f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae813ff7-99ff-443c-9b36-66470e31e768",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.CrossBanner-module_content-desktop__1C9SN > .CrossBanner-module_banner-container__2ZW6n",
+      "targets": [
+        ["css=.CrossBanner-module_content-desktop__1C9SN > .CrossBanner-module_banner-container__2ZW6n", "css:finder"],
+        ["xpath=//div[@id='cross-banner-CrossBanner-f7edc8ab-389a-4c5e-b581-6b101f1f6c17']/a[2]/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0a07eb5-73c2-4bc3-8552-93913e13b0a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#header-med-search-bar-SearchBar-79247401-c89a-4b16-9d3c-f91206c21c2c-mobile > svg",
+      "targets": [
+        ["css=#header-med-search-bar-SearchBar-79247401-c89a-4b16-9d3c-f91206c21c2c-mobile > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cad52547-6bc7-43ec-826a-388bd4415f3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MobileSearchBar-module_searchbox-input__3Z3pJ",
+      "targets": [
+        ["css=.MobileSearchBar-module_searchbox-input__3Z3pJ", "css:finder"],
+        ["xpath=(//input[@value=''])[2]", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9d7b017-991c-4dc3-b2a9-d8c23bd61b42",
+      "comment": "",
+      "command": "type",
+      "target": "css=.MobileSearchBar-module_searchbox-input__3Z3pJ",
+      "targets": [
+        ["css=.MobileSearchBar-module_searchbox-input__3Z3pJ", "css:finder"],
+        ["xpath=//input[@value='llantas']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "llantas"
+    }, {
+      "id": "1e17ea3a-fd5f-4a14-82cb-2536527873f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(6) b",
+      "targets": [
+        ["css=.row:nth-child(6) b", "css:finder"],
+        ["xpath=//div[6]/a/div/b", "xpath:position"],
+        ["xpath=//b[contains(.,' camioneta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4abfdb8d-6c09-420e-b576-43c1e0cb8f8c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.jsx-3418419141:nth-child(1) #testId-Link-title-pdp-link > .jsx-110785930",
+      "targets": [
+        ["css=.jsx-3418419141:nth-child(1) #testId-Link-title-pdp-link > .jsx-110785930", "css:finder"],
+        ["xpath=//a[@id='testId-Link-title-pdp-link']/div", "xpath:idRelative"],
+        ["xpath=//span/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b953568-fdda-4f9c-b45f-24ac53670c76",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jsx-3418419141:nth-child(1) #testId-Link-title-pdp-link > .jsx-110785930",
+      "targets": [
+        ["css=.jsx-3418419141:nth-child(1) #testId-Link-title-pdp-link > .jsx-110785930", "css:finder"],
+        ["xpath=//a[@id='testId-Link-title-pdp-link']/div", "xpath:idRelative"],
+        ["xpath=//span/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "106849f2-2e03-42f7-b939-e49667eaa0a2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=testId-btn-add-to-cart",
+      "targets": [
+        ["id=testId-btn-add-to-cart", "id"],
+        ["css=.jsx-3358633347 > #testId-btn-add-to-cart", "css:finder"],
+        ["xpath=//button[@id='testId-btn-add-to-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div[4]/div[2]/div/div[6]/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar al carro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe596ba4-5405-4533-b04f-3cd468d09cde",
+      "comment": "",
+      "command": "click",
+      "target": "id=testId-btn-add-to-cart",
+      "targets": [
+        ["id=testId-btn-add-to-cart", "id"],
+        ["css=.jsx-3358633347 > #testId-btn-add-to-cart", "css:finder"],
+        ["xpath=//button[@id='testId-btn-add-to-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div[4]/div[2]/div/div[6]/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar al carro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "537cf809-7723-436d-91fb-3b6695929f4d",
+      "comment": "",
+      "command": "click",
+      "target": "id=testId-btn-add-recommended-qty-to-cart",
+      "targets": [
+        ["id=testId-btn-add-recommended-qty-to-cart", "id"],
+        ["css=#testId-btn-add-recommended-qty-to-cart", "css:finder"],
+        ["xpath=//button[@id='testId-btn-add-recommended-qty-to-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div/div[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Agregar 4 productos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b4a0328-b77a-44df-92b7-2df227c14f43",
+      "comment": "",
+      "command": "click",
+      "target": "id=testId-btn-view-products-button",
+      "targets": [
+        ["id=testId-btn-view-products-button", "id"],
+        ["css=#testId-btn-view-products-button", "css:finder"],
+        ["xpath=//button[@id='testId-btn-view-products-button']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div[2]/div/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//body/div/div/div[2]/div/div/div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ver más productos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7ff3668a-2adb-4521-8677-3b78191f9b3f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5463f503-2032-4ab9-ae9b-adda6607cf52"]
+  }],
+  "urls": ["https://www.homecenter.com.co/"],
+  "plugins": []
+}

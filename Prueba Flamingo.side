@@ -1,0 +1,209 @@
+{
+  "id": "676fbf86-77c0-42e0-be95-c7c03f0068f3",
+  "version": "2.0",
+  "name": "Prueba2",
+  "url": "https://www.flamingo.com.co/?utm_source=google&utm_medium=cpc&utm_campaign=PURE_BRAND_SEM_CPC_AON&utm_content=texto_expandido&gclid=EAIaIQobChMIxMbGnK6B-gIVZciUCR32XgpWEAAYASAAEgJbEvD_BwE",
+  "tests": [{
+    "id": "187b4b84-47c7-4ba6-9e2a-c54f15c16778",
+    "name": "Flamingo",
+    "commands": [{
+      "id": "63886952-027b-432f-8233-97d9017cd052",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flamingo.com.co/?utm_source=google&utm_medium=cpc&utm_campaign=PURE_BRAND_SEM_CPC_AON&utm_content=texto_expandido&gclid=EAIaIQobChMIxMbGnK6B-gIVZciUCR32XgpWEAAYASAAEgJbEvD_BwE",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3840d3b9-617b-43e1-b7a6-2e9df6dc5154",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23084bf5-7ae1-49ff-9a00-b7a9467fdc9f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.grid li:nth-child(2) img",
+      "targets": [
+        ["css=.grid li:nth-child(2) img", "css:finder"],
+        ["xpath=//li[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1c8faf1-f8de-4109-bd65-611e111964d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grid li:nth-child(2) img",
+      "targets": [
+        ["css=.grid li:nth-child(2) img", "css:finder"],
+        ["xpath=//li[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab15f1c0-6744-4334-9f45-e87fbb3d6628",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=ul:nth-child(2) .buttons",
+      "targets": [
+        ["css=ul:nth-child(2) .buttons", "css:finder"],
+        ["xpath=(//a[contains(text(),'COMPRAR')])[2]", "xpath:link"],
+        ["xpath=//div[@id='ResultItems_31735647']/div/ul[2]/li/article/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.flamingo.com.co/portatil-lenovo-ideapad-core-i3-4gb-256gb-win10home-77418/p')])[3]", "xpath:href"],
+        ["xpath=//ul[2]/li/article/div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7cfb82c-34bd-435a-a9a4-3c7f39aaf937",
+      "comment": "",
+      "command": "click",
+      "target": "css=ul:nth-child(2) .buttons",
+      "targets": [
+        ["css=ul:nth-child(2) .buttons", "css:finder"],
+        ["xpath=(//a[contains(text(),'COMPRAR')])[2]", "xpath:link"],
+        ["xpath=//div[@id='ResultItems_31735647']/div/ul[2]/li/article/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.flamingo.com.co/portatil-lenovo-ideapad-core-i3-4gb-256gb-win10home-77418/p')])[3]", "xpath:href"],
+        ["xpath=//ul[2]/li/article/div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d254b9bb-25cf-4dbc-8aad-b7cf7916211d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=ul:nth-child(2) .buttons",
+      "targets": [
+        ["css=ul:nth-child(2) .buttons", "css:finder"],
+        ["xpath=(//a[contains(text(),'COMPRAR')])[2]", "xpath:link"],
+        ["xpath=//div[@id='ResultItems_31735647']/div/ul[2]/li/article/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.flamingo.com.co/portatil-lenovo-ideapad-core-i3-4gb-256gb-win10home-77418/p')])[3]", "xpath:href"],
+        ["xpath=//ul[2]/li/article/div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfd0c58f-a5bc-4b80-8573-17ee4c120331",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=5",
+      "targets": [
+        ["index=5"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba2c0286-9dd7-46fc-b1e2-666629e92cbb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=AÑADIR AL CARRITO",
+      "targets": [
+        ["linkText=AÑADIR AL CARRITO", "linkText"],
+        ["css=.buy-in-page-button", "css:finder"],
+        ["xpath=//a[contains(text(),'AÑADIR AL CARRITO')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/checkout/cart/add?sku=86977&qty=1&seller=wondertech&redirect=false&sc=1')]", "xpath:href"],
+        ["xpath=//div[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'AÑADIR AL CARRITO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "346695d2-57aa-4c55-939b-f2ee8b7b14d2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=IR AL CARRITO",
+      "targets": [
+        ["linkText=IR AL CARRITO", "linkText"],
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=(//a[contains(text(),'IR AL CARRITO')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/checkout/#/cart')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "340cc50e-1b7b-47bb-a7ac-2ab04d625c1f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=IR AL CARRITO",
+      "targets": [
+        ["linkText=IR AL CARRITO", "linkText"],
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=(//a[contains(text(),'IR AL CARRITO')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/checkout/#/cart')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9195",
+      "windowTimeout": 2000
+    }, {
+      "id": "45304c4e-08f1-4fa6-aa05-44a2c3785246",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9195}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f6e093a-69af-4dc8-a5b9-7a1945e1a03e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=cart-choose-more-products",
+      "targets": [
+        ["id=cart-choose-more-products", "id"],
+        ["linkText=Elegir más productos", "linkText"],
+        ["css=.link-choose-more-products-wrapper:nth-child(4) > #cart-choose-more-products", "css:finder"],
+        ["xpath=//a[contains(text(),'Elegir más productos')]", "xpath:link"],
+        ["xpath=//a[@id='cart-choose-more-products']", "xpath:attributes"],
+        ["xpath=//body[@id='checkoutMainContainer']/div[5]/div[3]/div/div[2]/div/span[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[15]", "xpath:href"],
+        ["xpath=//div/span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Elegir más productos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8f94a81-826b-4f41-8131-e7c361de9223",
+      "comment": "",
+      "command": "click",
+      "target": "id=cart-choose-more-products",
+      "targets": [
+        ["id=cart-choose-more-products", "id"],
+        ["linkText=Elegir más productos", "linkText"],
+        ["css=.link-choose-more-products-wrapper:nth-child(4) > #cart-choose-more-products", "css:finder"],
+        ["xpath=//a[contains(text(),'Elegir más productos')]", "xpath:link"],
+        ["xpath=//a[@id='cart-choose-more-products']", "xpath:attributes"],
+        ["xpath=//body[@id='checkoutMainContainer']/div[5]/div[3]/div/div[2]/div/span[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[15]", "xpath:href"],
+        ["xpath=//div/span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Elegir más productos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac732c18-17bb-4f45-8935-6d20314e6032",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#tns1-item0 img",
+      "targets": [
+        ["css=#tns1-item0 img", "css:finder"],
+        ["xpath=//div[@id='tns1-item0']/figure/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[2]/figure/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9784abb8-40cb-4bf6-9b4e-afca5f81c590",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#tns1-item0 img",
+      "targets": [
+        ["css=#tns1-item0 img", "css:finder"],
+        ["xpath=//div[@id='tns1-item0']/figure/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[2]/figure/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6b67d4f2-e6dc-411c-8c0c-b0fb2851d144",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["187b4b84-47c7-4ba6-9e2a-c54f15c16778"]
+  }],
+  "urls": ["https://www.flamingo.com.co/?utm_source=google&utm_medium=cpc&utm_campaign=PURE_BRAND_SEM_CPC_AON&utm_content=texto_expandido&gclid=EAIaIQobChMIxMbGnK6B-gIVZciUCR32XgpWEAAYASAAEgJbEvD_BwE"],
+  "plugins": []
+}
